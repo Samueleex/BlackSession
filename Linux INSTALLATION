@@ -1,0 +1,13 @@
+LINUX TUTORIAL
+
+# 1. Estrai l'archivio
+tar -xzvf black-session-0.0.0.tar.gz
+
+# 2. Entra nella cartella
+cd black-session-0.0.0
+
+# 3. Dai i permessi di esecuzione
+chmod +x black-session
+
+# 4. Avvialo
+./black-session
