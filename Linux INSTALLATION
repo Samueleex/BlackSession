@@ -1,13 +1,20 @@
-LINUX TUTORIAL
+LINUX DOWNLOAD
 
-# 1. Estrai l'archivio
-tar -xzvf black-session-0.0.0.tar.gz
+1. Extract the archive
+`tar -xzvf black-session-0.0.0.tar.gz`
 
-# 2. Entra nella cartella
-cd black-session-0.0.0
+2. Navigate to the folder
+`cd black-session-0.0.0`
 
-# 3. Dai i permessi di esecuzione
-chmod +x black-session
+3. Grant execute permissions
+`chmod +x black-session`
 
-# 4. Avvialo
-./black-session
+4. Run 
+`./black-session`
+
+
+(Optional) Install as an app:
+`sudo mv ~/black-session-0.0.0 /opt/black-session`
+`sudo ln -s /opt/black-session/black-session /usr/local/bin/black-session`
+
+`black-session`
